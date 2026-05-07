@@ -17,7 +17,7 @@ from urllib.parse import quote
 
 # ===================== НАСТРОЙКИ =====================
 BOT_TOKEN = "8094009275:AAFh0ru-YW5kXGDNVxHqoWMQt31XSHsw7tk"
-CHANNEL_ID = 1003949503513
+CHANNEL_ID = -1003949503513
 
 # ID владельцев
 SUPER_ADMIN_IDS = [8434813604, 7426973311]  # Добавлен новый ID
