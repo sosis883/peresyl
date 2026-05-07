@@ -16,15 +16,15 @@ from telegram.ext import (
 from urllib.parse import quote
 
 # ===================== НАСТРОЙКИ =====================
-BOT_TOKEN = "8651719456:AAG1naOEDDLrD6JdeM3r7oVvlfyVJFYZq6Y"
-CHANNEL_ID = -1002161097295
+BOT_TOKEN = "8094009275:AAFh0ru-YW5kXGDNVxHqoWMQt31XSHsw7tk"
+CHANNEL_ID = 1003949503513
 
 # ID владельцев
-SUPER_ADMIN_IDS = [8434813604, 8524655218, 1513619439]  # Добавлен новый ID
-OWNER_IDS = [8434813604, 8524655218, 1513619439]  # Добавлен новый ID
+SUPER_ADMIN_IDS = [8434813604, 7426973311]  # Добавлен новый ID
+OWNER_IDS = [8434813604, 7426973311]  # Добавлен новый ID
 
 # Настройки рабочего времени (МСК)
-WORK_START_HOUR = 9   # 9:00
+WORK_START_HOUR = 8   # 9:00
 WORK_END_HOUR = 23    # 23:00
 TIMEZONE = pytz.timezone('Europe/Moscow')
 
@@ -34,8 +34,8 @@ URL_SUPPORT = "https://t.me/podderzhka_sombero_bot"       # Поддержка
 URL_REFERRAL = "https://t.me/SomberoReferalBot"           # Реферальная программа
 
 # НОВЫЕ ССЫЛКИ ДЛЯ КНОПОК В КАНАЛЕ
-URL_PAYMENTS = "https://t.me/Makersvuplaty"      # Выплаты
-URL_TRAINING = "https://t.me/djsjdhhfjd"         # Обучение
+URL_PAYMENTS = "https://t.me/galxarv"      # Выплаты
+URL_TRAINING = "https://t.me/galxarinfo"         # Обучение
 
 # ID сообщения с ночной паузой (будет сохранен после первой публикации)
 NIGHT_MESSAGE_FILE = os.path.join("/data" if os.path.exists("/data") else ".", "night_message_id.json")
