@@ -580,7 +580,7 @@ async def confirm_task(query, context):
     )
 
     # Формируем текст для ЛС (теперь Makers Money)
-    prefill = quote(f"Здравствуйте, я из канала Makers Money, я за заданием {platform} за {payment}")
+    prefill = quote(f"Здравствуйте, я из канала Galxar, я за заданием {platform} за {payment}")
 
     if admin_username:
         respond_url = f"https://t.me/{admin_username}?text={prefill}"
