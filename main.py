@@ -29,9 +29,8 @@ WORK_END_HOUR = 23    # 23:00
 TIMEZONE = pytz.timezone('Europe/Moscow')
 
 # Ссылки для кнопок
-URL_HOW_TO = "https://somberooo.github.io/sayt_sombero/"  # Как брать задания
-URL_SUPPORT = "https://t.me/podderzhka_sombero_bot"       # Поддержка
-URL_REFERRAL = "https://t.me/SomberoReferalBot"           # Реферальная программа
+URL_SUPPORT = "https://t.me/galxarv"       # Поддержка
+URL_REFERRAL = "https://t.me/galxarinfo"           # Реферальная программа
 
 # НОВЫЕ ССЫЛКИ ДЛЯ КНОПОК В КАНАЛЕ
 URL_PAYMENTS = "https://t.me/galxarv"      # Выплаты
@@ -99,11 +98,8 @@ async def send_night_mode_message(context: ContextTypes.DEFAULT_TYPE):
     )
     
     keyboard = InlineKeyboardMarkup([
-        [InlineKeyboardButton("📖 КАК БРАТЬ ЗАДАНИЯ", url=URL_HOW_TO)],
-        [
-            InlineKeyboardButton("🆘 ПОДДЕРЖКА", url=URL_SUPPORT),
-            InlineKeyboardButton("💰 РЕФ. ПРОГРАММА", url=URL_REFERRAL)
-        ]
+            InlineKeyboardButton("Выплаты", url=URL_SUPPORT),
+            InlineKeyboardButton("Обучение", url=URL_REFERRAL)
     ])
     
     try:
